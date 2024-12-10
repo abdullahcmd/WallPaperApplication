@@ -12,17 +12,20 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
+    "package": "com.anonymous.WallpaperApplication",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-asset"
+    ],
+    "android": {
+      "package": "com.anonymous.WallpaperApplication"
     }
   }
 }
